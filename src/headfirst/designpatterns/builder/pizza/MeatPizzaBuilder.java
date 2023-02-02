@@ -1,6 +1,7 @@
 package headfirst.designpatterns.builder.pizza;
 
-public class MeatLoversPizzaBuilder extends PizzaBuilder {
+
+class MeatLoversPizzaBuilder extends PizzaBuilder {
 	public MeatLoversPizzaBuilder() {
 		this.name = "Meat Lovers Pizza";
 	}
